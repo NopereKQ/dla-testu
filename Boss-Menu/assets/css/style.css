@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    background: #191919;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoryContainer {
+    background: #2A282E;
+    width: 1200px;
+    height: 600px;
+    border-radius: 40px;
+    border: 20px solid #000;
+    /* border: 8px solid #707070; */
+}
+
+.categoryContainer .categoryName {
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    font-family: 'Popins', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/* .categoryContainer:focus { */
+    /* border: 50px solid red; */
+/* } */
+
+::-webkit-scrollbar {
+    width: 0rem;
+  }
+
+.categoryContainer-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    color: #fff;
+    width: 100%;
+    height: 85%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.categoryContainer-bussiness-account-balance {
+    width: 1058px;
+    height: 72px;
+    margin: 81px auto 1rem;
+    background: linear-gradient(to right, #201E24 50%, #FFFFFF 50%);
+    border: 4px solid #201E24;
+    display: flex;
+    border-radius: 5px;
+}
+
+.categoryContainer-bussiness-account-balance h1:nth-child(2) {
+    text-align: right;
+}
+
+.categoryContainer-bussiness-account-balance-text-one {
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-top: 0.8rem;
+    color: #fff;
+}
+
+.categoryContainer-bussiness-account-balance-text-two {
+    margin-left: auto;
+    text-align: center;
+    /* justify-content: flex-end; */
+    margin-top: 0.8rem;
+    margin-right: 7rem;
+    color: #2A282E;
+}
+
+.categoryContainer-bussiness-account-balance-amount-text {
+    text-align: center;
+    width: 30vh;
+}
+
+.mac-os-circles {
+    /* position: absolute; */
+    /* right: 10rem; */
+    /* float: right; */
+    /* margin-right: 4rem; */
+    /* flex-direction: row; */
+    position: sticky;
+    float: right;
+    margin-right: 4rem;
+    margin-top: 3rem;
+    display: flex;
+    /* right: 10rem; */
+}
+
+.circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.circle:nth-child(1) {
+    background: #BB4343;
+}
+
+.circle:nth-child(2) {
+    background: #CBAC45;
+}
+
+.circle:nth-child(3) {
+    background: #45CB45;
+}
+
+.categoryContainer-cont {
+    display: flex;
+    margin: 0 auto;
+}
+
+.categoryContainer-box {
+    height: 380px;
+    width: 340px;
+    /* margin: 18px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.categoryContainer-box img {
+    margin-bottom: 51px;
+}
+
+.dollar {
+    color: #90B840;
+}
+
+.categoryContainer-box h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.categoryContainer-box:nth-child(1) {
+    background: #4776E6;
+    /* margin-right: 18px; */
+}
+
+.categoryContainer-box:nth-child(2) {
+    background: #90B840;
+    margin-left: 18px;
+}
+
+.categoryContainer-box:nth-child(3) {
+    background: #BF2525;
+    margin-left: 18px;
+}
+
+
+.kurwa-bialy-kwadrat {
+    width: 528px;
+    height: 268px;
+    background: #fff;
+    border-radius: 5px;
+    margin: auto;
+    /* margin-bottom: 5rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kurwa-bialy-kwadrat-title {
+    color: #2A282E;
+    font-size: 24px;
+    font-weight: 600;
+    /* text-align: center; */
+    /* margin-top: 55px; */
+}
+
+.kurwa-bialy-kwadrat-input {
+    width: 295px;
+    padding-left: 295px;
+    margin-top: 30px;
+    padding-left: 18px;
+    height: 44px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    outline: none;
+}
+
+.kurwa-bialy-kwadrat-input::placeholder{
+    /* padding-left: 18px; */
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.kurwa-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    width: 135px;
+    height: 44px;
+    border-radius: 30px;
+    margin: 22px;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn:nth-child(1) {
+    background: transparent;
+    border: 1px solid #676767;
+}
+
+.btn:nth-child(2) {
+    background: #90B840;
+    /* border: 1px solid #90B840; */
+    color: #fff;
+}
+
+.main-tab {
+    display: flex;
+    margin: 0 auto;
+}
